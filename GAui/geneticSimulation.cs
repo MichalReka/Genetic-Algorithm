@@ -27,7 +27,7 @@ namespace GAui
         {
             createGen0(baseRoute, subjectsPerGen);
             this.maxGenNum = maxGenNum;
-            chromosomeLength = currentGeneration[0].Count;//kazdy osobnik ma ten sam kariotyp
+            chromosomeLength = currentGeneration[0].Count-1;//kazdy osobnik ma ten sam kariotyp
             List<double> routeLenghts = new List<double>(new double[currentGeneration.Count]);
             foreach (var individual in currentGeneration)    //licze w kontruktorze bestSolution by uniknac wyswietlania dwukrotnie generacji 0 w output
             {
@@ -53,7 +53,7 @@ namespace GAui
                 int n = route.Count;
                 List<City> tempRoute = new List<City>();
                 tempRoute.AddRange(route);
-                while (n > 1)
+                while (n > 2)
                 {
                     n--;
                     int k = rnd.Next(n + 1);
@@ -61,6 +61,7 @@ namespace GAui
                     tempRoute[k] = tempRoute[n];
                     tempRoute[n] = tempCity;
                 }
+                tempRoute.Add(tempRoute[0]);
                 gen0.Add(tempRoute);
             }
             currentGeneration = gen0;
@@ -213,6 +214,7 @@ namespace GAui
                     child[geneSwapIndex] = tempGene;
                 }
             }
+            child.Add(child[0]);
             return child; 
         }
     }

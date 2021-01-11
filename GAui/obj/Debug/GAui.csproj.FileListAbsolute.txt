@@ -18,3 +18,13 @@ C:\Users\micha\Documents\nauka\GAui\GAui\GAui\bin\Debug\GAui.exe.config
 C:\Users\micha\Documents\nauka\GAui\GAui\GAui\bin\Debug\GAui.exe
 C:\Users\micha\Documents\nauka\GAui\GAui\GAui\bin\Debug\GAui.pdb
 C:\Users\micha\Documents\nauka\GAui\GAui\GAui\obj\Debug\GAui.mainForm.resources
+C:\Users\Michal\Source\Repos\Genetic-Algorithm\GAui\bin\Debug\GAui.exe.config
+C:\Users\Michal\Source\Repos\Genetic-Algorithm\GAui\bin\Debug\GAui.exe
+C:\Users\Michal\Source\Repos\Genetic-Algorithm\GAui\bin\Debug\GAui.pdb
+C:\Users\Michal\Source\Repos\Genetic-Algorithm\GAui\obj\Debug\GAui.csprojAssemblyReference.cache
+C:\Users\Michal\Source\Repos\Genetic-Algorithm\GAui\obj\Debug\GAui.mainForm.resources
+C:\Users\Michal\Source\Repos\Genetic-Algorithm\GAui\obj\Debug\GAui.Properties.Resources.resources
+C:\Users\Michal\Source\Repos\Genetic-Algorithm\GAui\obj\Debug\GAui.csproj.GenerateResource.cache
+C:\Users\Michal\Source\Repos\Genetic-Algorithm\GAui\obj\Debug\GAui.csproj.CoreCompileInputs.cache
+C:\Users\Michal\Source\Repos\Genetic-Algorithm\GAui\obj\Debug\GAui.exe
+C:\Users\Michal\Source\Repos\Genetic-Algorithm\GAui\obj\Debug\GAui.pdb

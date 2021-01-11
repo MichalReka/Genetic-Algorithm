@@ -42,6 +42,7 @@ namespace GAui
             baseRoute.Add(new City(15, 5, "Lublin"));
             baseRoute.Add(new City(14, 1, "Rzeszow"));
             baseRoute.Add(new City(9, 1, "Katowice"));
+            baseRoute.Add(new City(1, 10, "Szczecin"));
 
             currentRouteChart.Series.Clear();
             currentRouteChart.ChartAreas[0].AxisX.MajorGrid.LineWidth = 0;
